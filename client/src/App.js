@@ -12,8 +12,9 @@ import Home from './pages/Home';
 
 // new connection to GraphQl using Apollo
 const client = new ApolloClient({
-  uri: 'http://localhost:3001/graphql'
+  uri: '/graphql'
 });
+// Uniform Resource identifier
 
 function App() {
   return (
